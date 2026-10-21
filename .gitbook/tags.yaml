@@ -1,0 +1,12 @@
+- tag: transparency
+  label: transparency
+  color: yellow
+- tag: reliability
+  label: reliability
+  color: purple
+- tag: data-protection
+  label: data protection
+  color: blue
+- tag: risk
+  label: risk
+  color: red

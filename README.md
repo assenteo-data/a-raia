@@ -42,7 +42,7 @@ We’ve built a framework that benefits both sides: startups gain credibility, a
 
 **A-RAIA is Assenteo’s data processing and usage protocol for AI systems.**&#x20;
 
-We aspire to gives AI credibility by making governance efforts visible. To do this, companies that are part of A-RAIA meet a set of 21 controls. This is a standard that legal and privacy teams need to see, when it comes to how the startup processes customer data. A-RAIA is:
+We aspire to give AI credibility by making governance efforts visible. To do this, companies that are part of A-RAIA meet a set of 21 controls. This is a standard that legal and privacy teams need to see, when it comes to how the startup processes customer data. A-RAIA is:
 
 * **Practical and meaningful governance.** Rooted in real-world needs.
 * **Enterprise adoption-ready.** Lightweight enough for you to adopt fast; resilient enough for your trust.

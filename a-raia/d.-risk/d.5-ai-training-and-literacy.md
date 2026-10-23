@@ -14,18 +14,22 @@ layout:
   metadata:
     visible: true
   tags:
-    visible: false
+    visible: true
   actions:
     visible: true
   anchors:
     visible: true
 tags:
   - risk
+  - customer-success
+  - people-and-ops
 ---
 
 # D.5 AI training and literacy
 
-The company ensures an adequate level of responsible AI training for the company's product.
+Make sure your team and your customers have the right level of responsible AI training (AI literacy).
 
-<table><thead><tr><th width="110.484375">Control #</th><th width="380.20703125">Control</th><th>Source</th></tr></thead><tbody><tr><td>D.5.i</td><td>The company has provided training or upskilling for internal teams on responsible AI practices and has offered guidance to enterprise users to help them use the system effectively and responsibly.</td><td>Principle 4 – Original Framework / Article 4 – EU AI Act</td></tr><tr><td>D.5.ii</td><td>The company has offered guidance to enterprise users to help them use the system effectively and responsibly.</td><td>Principle 4 – Original Framework</td></tr></tbody></table>
-
+| Control # | Control                                                                         | Source                                                   | Primary owner    | Supporting functions        |
+| --------- | ------------------------------------------------------------------------------- | -------------------------------------------------------- | ---------------- | --------------------------- |
+| D.5.i     | Train or upskill your internal teams on responsible AI practices.               | Principle 4 – Original Framework / Article 4 – EU AI Act | People & Ops     | Legal & Privacy, Leadership |
+| D.5.ii    | Give enterprise users guidance on using the system effectively and responsibly. | Principle 4 – Original Framework                         | Customer Success | Product                     |

@@ -14,17 +14,20 @@ layout:
   metadata:
     visible: true
   tags:
-    visible: false
+    visible: true
   actions:
     visible: true
   anchors:
     visible: true
 tags:
   - transparency
+  - legal-and-privacy
 ---
 
 # A.5 Published AI policies
 
-The company has published policies, including a privacy policy and terms of service, that govern the development, deployment, and oversight of AI systems and explain how user data is protected.
+Publish the policies that govern how you build and run AI and how you protect user data.
 
-<table><thead><tr><th width="109.53125">Control #</th><th width="379.8828125">Control</th><th>Source</th></tr></thead><tbody><tr><td>A.5.i</td><td>The company has published policies, including a Privacy Policy and Terms of Service, that govern the development, deployment, and oversight of AI systems and explain how user data is protected.</td><td>EU AI Act, Article 10; <br><em>Principle 5 – Original Framework</em></td></tr></tbody></table>
+| Control # | Control                                                                                                                                               | Source                                                  | Primary owner   | Supporting functions |
+| --------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------- | --------------- | -------------------- |
+| A.5.i     | Publish a Privacy Policy and Terms of Service (and any AI policy) that explain how you develop, deploy and oversee AI, and how you protect user data. | EU AI Act, Article 10; Principle 5 – Original Framework | Legal & Privacy | Leadership           |

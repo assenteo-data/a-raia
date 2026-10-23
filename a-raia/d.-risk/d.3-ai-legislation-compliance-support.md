@@ -14,17 +14,33 @@ layout:
   metadata:
     visible: true
   tags:
-    visible: false
+    visible: true
   actions:
     visible: true
   anchors:
     visible: true
 tags:
   - risk
+  - leadership
+  - ai-ml
+  - legal-and-privacy
 ---
 
 # D.3 AI legislation compliance support
 
-The company shall support the company in compliance and impact assessment required under applicable AI legislation.
+Help your customers complete the compliance and impact assessments that AI laws require.
 
-<table><thead><tr><th width="110.5">Control #</th><th width="380.28515625">Control</th><th>Source</th></tr></thead><tbody><tr><td>D.3.i</td><td>Company carries out their own compliance and impact assessment.</td><td>Enterprise vendor requirement / Art 9</td></tr><tr><td>D.3.ii</td><td>Company provides sufficient documentation to assist the company in completion of the compliance and impact assessment.</td><td></td></tr><tr><td>D.3.iii</td><td>The company shall document data protection risks arising from AI data processing activities.</td><td>Art 9 – Risk management system</td></tr><tr><td>D.3.iv</td><td>The company shall establish and maintain a documented AI risk management process covering the full system lifecycle.</td><td>Art 9 – Risk management system</td></tr><tr><td>D.3.v</td><td>The company shall identify, analyse, evaluate, and mitigate risks associated with AI system design, deployment, and use.</td><td>Art 9 – Risk management system</td></tr><tr><td>D.3.vi</td><td>The company shall define risk acceptance criteria and mitigation measures.</td><td>Art 9 – Risk management system</td></tr><tr><td>D.3.vii</td><td>The company shall review and update risk assessments at defined intervals and after significant changes.</td><td>Art 9 – Risk management system</td></tr><tr><td>D.3.viii</td><td>The company shall maintain records of identified risks, mitigations, and residual risk decisions.</td><td>Art 9 – Risk management system</td></tr><tr><td>D.3.ix</td><td>The company shall update risk assessments and controls based on monitoring results.</td><td>Art 72 – Post-market monitoring</td></tr><tr><td>D.3.x</td><td>The company shall provide information necessary for customer record-keeping and compliance obligations where applicable.</td><td>Art 26 – Deployer obligations</td></tr><tr><td>D.3.xi</td><td>The company shall provide information relevant to potential impacts of the AI system on individuals or groups.</td><td>Art 27 – Fundamental rights impact assessment</td></tr><tr><td>D.3.xii</td><td>The company shall support customer assessments of risks to individuals where required by law or contract.</td><td>Art 27 – Fundamental rights impact assessment</td></tr></tbody></table>
+| Control # | Control                                                                                                                                    | Source                                        | Primary owner   | Supporting functions     |
+| --------- | ------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------- | --------------- | ------------------------ |
+| D.3.i     | Carry out your own compliance and impact assessment.                                                                                       | Enterprise vendor requirement / Art 9         | Legal & Privacy | Leadership               |
+| D.3.ii    | Give customers the documentation they need to complete their own compliance and impact assessment.                                         |                                               | Legal & Privacy | Customer Success         |
+| D.3.iii   | Document the data protection risks that come from your AI data processing.                                                                 | Art 9 – Risk management system                | Legal & Privacy | AI/ML                    |
+| D.3.iv    | Run a documented AI risk management process covering the whole system lifecycle.                                                           | Art 9 – Risk management system                | Leadership      | Legal & Privacy, AI/ML   |
+| D.3.v     | Identify, analyse, evaluate and reduce the risks of how the AI system is designed, deployed and used.                                      | Art 9 – Risk management system                | AI/ML           | Legal & Privacy, Product |
+| D.3.vi    | Decide what level of risk you'll accept and how you'll mitigate the rest (risk acceptance criteria).                                       | Art 9 – Risk management system                | Leadership      | Legal & Privacy          |
+| D.3.vii   | Review risk assessments on a set schedule and after significant changes.                                                                   | Art 9 – Risk management system                | Legal & Privacy | AI/ML                    |
+| D.3.viii  | Keep a risk register: the risks you found, how you mitigated them, and decisions on residual risk.                                         | Art 9 – Risk management system                | Legal & Privacy | Leadership               |
+| D.3.ix    | Update risk assessments and controls based on what monitoring shows.                                                                       | Art 72 – Post-market monitoring               | Legal & Privacy | Engineering, AI/ML       |
+| D.3.x     | Give customers the information they need for their own record-keeping and compliance.                                                      | Art 26 – Deployer obligations                 | Legal & Privacy | Customer Success         |
+| D.3.xi    | Share information on how the AI system could affect individuals or groups.                                                                 | Art 27 – Fundamental rights impact assessment | Legal & Privacy | Product                  |
+| D.3.xii   | Support customers' assessments of risks to individuals where the law or contract requires it (e.g. fundamental rights impact assessments). | Art 27 – Fundamental rights impact assessment | Legal & Privacy | Customer Success         |

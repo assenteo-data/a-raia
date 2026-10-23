@@ -14,17 +14,26 @@ layout:
   metadata:
     visible: true
   tags:
-    visible: false
+    visible: true
   actions:
     visible: true
   anchors:
     visible: true
 tags:
   - reliability
+  - engineering
+  - ai-ml
+  - security
 ---
 
 # B.4 Reliability logging
 
-The company shall implement automated logging of AI system operation sufficient to enable traceability of inputs, outputs, and system actions.
+Log what the system does automatically, so inputs, outputs and actions can be traced.
 
-<table><thead><tr><th width="110.44921875">Control #</th><th width="380.48828125">Control</th><th>Source</th></tr></thead><tbody><tr><td>B.4.i</td><td>The company has implemented automated logging of AI system operation to enable traceability of inputs, outputs, and system actions.</td><td>Art 12 – Record-keeping and logging</td></tr><tr><td>B.4.ii</td><td>The company has defined log retention periods and secure storage controls.</td><td>Art 12 – Record-keeping and logging</td></tr><tr><td>B.4.iii</td><td>The company has ensured logs are accessible for audit, investigation, and oversight purposes.</td><td>Art 12 – Record-keeping and logging</td></tr><tr><td>B.4.iv</td><td>The company has protected logs against unauthorized modification or deletion. <em>Logs shall be immutable and access on a need-to-know basis.</em></td><td>Art 12 – Record-keeping and logging</td></tr><tr><td>B.4.v</td><td>The company has maintained versioning and traceability of datasets used in model development and evaluation.</td><td>Art 10 – Data and data governance</td></tr></tbody></table>
+| Control # | Control                                                                                                 | Source                              | Primary owner | Supporting functions         |
+| --------- | ------------------------------------------------------------------------------------------------------- | ----------------------------------- | ------------- | ---------------------------- |
+| B.4.i     | Automatically log system activity so inputs, outputs and actions are traceable.                         | Art 12 – Record-keeping and logging | Engineering   | Security                     |
+| B.4.ii    | Set how long you keep logs and store them securely (log retention).                                     | Art 12 – Record-keeping and logging | Security      | Legal & Privacy, Engineering |
+| B.4.iii   | Make sure logs can be accessed for audits, investigations and oversight.                                | Art 12 – Record-keeping and logging | Engineering   | Security                     |
+| B.4.iv    | Protect logs from being changed or deleted: keep them immutable and limit access to people who need it. | Art 12 – Record-keeping and logging | Security      | Engineering                  |
+| B.4.v     | Version your datasets so you can trace which data was used to build and evaluate each model.            | Art 10 – Data and data governance   | AI/ML         | Engineering                  |

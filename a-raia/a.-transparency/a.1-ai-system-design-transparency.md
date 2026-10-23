@@ -14,20 +14,26 @@ layout:
   metadata:
     visible: true
   tags:
-    visible: false
+    visible: true
   actions:
     visible: true
   anchors:
     visible: true
 tags:
   - transparency
+  - ai-ml
+  - product
+  - engineering
 ---
 
 # A.1 AI system design transparency
 
-The company shall provide any relevant and necessary information and explanations regarding the design of the AI system (intended use and purpose). \
-\
-Explanation: \
-A buyer should be able to understand what the AI System is intended to be used for and it's limitations.&#x20;
+Explain what your AI system is for, how it's designed, and where its limits are.
 
-<table><thead><tr><th width="109.953125">Control #</th><th width="379.640625">Control</th><th>Source</th></tr></thead><tbody><tr><td>A.1.i</td><td>The company has designed, developed, tested and audited the AI system, against guiding principles, to ensure its operation is  transparent. </td><td>A-RAIA - <em>Principle 3</em></td></tr><tr><td>A.1.ii</td><td>The company maintains technical documentation describing the AI System’s intended purpose, design, architecture, user interface, data inputs, outputs, and operational context.</td><td><em>EU AI Act - Technical documentation Article 11 (Annex IV)</em></td></tr><tr><td>A.1.iii</td><td>The company discloses known limitations, performance factors, and situations where system outputs may be unreliable.</td><td><em>EU AI Act - Instructions to deployers, Article 13</em></td></tr><tr><td>A.1.iv</td><td>The company provides guidance on interpretation of outputs from the AI System.</td><td><em>EU AI Act - Instructions to deployers, Article 13</em></td></tr><tr><td>A1.v  </td><td>The company ensures that the AI System and the Training Data are exempt of bias likely to lead to discrimination through all necessary measures which are regularly audited.</td><td>Enterprise vendor requirement</td></tr></tbody></table>
+| Control # | Control                                                                                                                                                         | Source                                                    | Primary owner | Supporting functions    |
+| --------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------- | ------------- | ----------------------- |
+| A.1.i     | Design, build and test your AI system against clear guiding principles so that how it works is transparent, and reviewed regularly.                             | A-RAIA - Principle 3                                      | AI/ML         | Engineering, Product    |
+| A.1.ii    | Keep up-to-date technical documentation covering what the system is for, how it's built, its user interface, what goes in, what comes out, and where it's used. | EU AI Act – Technical documentation Article 11 (Annex IV) | Engineering   | Product, AI/ML          |
+| A.1.iii   | Tell customers what the system can't do well: known limitations, what affects performance, and when outputs may be unreliable.                                  | EU AI Act – Instructions to deployers, Article 13         | Product       | AI/ML, Customer Success |
+| A.1.iv    | Help customers read and understand outputs, including explainability: the main factors that drive a result.                                                     | EU AI Act – Instructions to deployers, Article 13         | Product       | Customer Success, AI/ML |
+| A.1.v     | Explain how you prevent bias in the system and its training data that could lead to discrimination, and how often you check.                                    | Enterprise vendor requirement                             | AI/ML         | Legal & Privacy         |

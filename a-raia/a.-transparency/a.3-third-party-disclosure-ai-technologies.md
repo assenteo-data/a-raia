@@ -14,21 +14,22 @@ layout:
   metadata:
     visible: true
   tags:
-    visible: false
+    visible: true
   actions:
     visible: true
   anchors:
     visible: true
 tags:
   - transparency
+  - engineering
+  - legal-and-privacy
 ---
 
 # A.3 Third party disclosure AI technologies
 
-The company shall document the third parties the product/service discloses customer data to.\
-\
-Explanation:&#x20;
+Be clear about which third parties receive customer data, including the LLMs and other vendors behind your service.
 
-The buyer will have access to information outlining which LLMs and other vendors are used to provide the service.&#x20;
-
-<table><thead><tr><th width="109.80859375">Control #</th><th width="380.3203125">Control</th><th>Source</th></tr></thead><tbody><tr><td>A.3.i</td><td>The company documents the AI technologies integrated into the product/service, including the main third-party models used.</td><td>Enterprise vendor requirement</td></tr><tr><td>A.3.ii</td><td>The company documents third party sub-processors/vendors integrated into the product/service.</td><td>Enterprise vendor requirement</td></tr></tbody></table>
+| Control # | Control                                                                          | Source                        | Primary owner   | Supporting functions   |
+| --------- | -------------------------------------------------------------------------------- | ----------------------------- | --------------- | ---------------------- |
+| A.3.i     | List the AI technologies in your product, including the main third-party models. | Enterprise vendor requirement | Engineering     | AI/ML, Legal & Privacy |
+| A.3.ii    | Keep a list of the sub-processors and vendors built into your product.           | Enterprise vendor requirement | Legal & Privacy | Engineering, Security  |

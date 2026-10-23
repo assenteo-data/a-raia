@@ -14,17 +14,22 @@ layout:
   metadata:
     visible: true
   tags:
-    visible: false
+    visible: true
   actions:
     visible: true
   anchors:
     visible: true
 tags:
   - risk
+  - legal-and-privacy
 ---
 
 # D.1 Training data permissions licensing
 
-The company shall not use protected data as Company Training Data or shall obtain all necessary permissions and licenses for the provision and use of Company Training Data.&#x20;
+Only use training data you have the rights to: get the permissions and licences you need, or don't use protected data.
 
-<table><thead><tr><th width="110.44140625">Control #</th><th width="379.59375">Control</th><th>Source</th></tr></thead><tbody><tr><td>D.1.i</td><td>The company shall obtain all necessary permissions and licenses for the provision and use of Company Training Data.</td><td>Enterprise vendor requirement</td></tr><tr><td>D.1.ii</td><td>The company shall obtain permission for the development and creation of the software (inference).</td><td>Enterprise vendor requirement</td></tr><tr><td>D.1.iii</td><td>The company shall obtain permission to train the model (training).</td><td>Enterprise vendor requirement</td></tr></tbody></table>
+| Control # | Control                                                                              | Source                        | Primary owner   | Supporting functions |
+| --------- | ------------------------------------------------------------------------------------ | ----------------------------- | --------------- | -------------------- |
+| D.1.i     | Get all the permissions and licences you need to use your training data.             | Enterprise vendor requirement | Legal & Privacy | AI/ML                |
+| D.1.ii    | Get permission to use data to build and run the software or otherwise for inference. | Enterprise vendor requirement | Legal & Privacy | AI/ML                |
+| D.1.iii   | Get permission to use data to train the model.                                       | Enterprise vendor requirement | Legal & Privacy | AI/ML                |

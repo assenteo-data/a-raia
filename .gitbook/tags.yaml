@@ -10,3 +10,19 @@
 - tag: risk
   label: risk
   color: red
+- tag: ai-ml
+  label: AI/ML
+- tag: product
+  label: Product
+- tag: engineering
+  label: Engineering
+- tag: leadership
+  label: Leadership
+- tag: security
+  label: Security
+- tag: legal-and-privacy
+  label: Legal & Privacy
+- tag: customer-success
+  label: Customer Success
+- tag: people-and-ops
+  label: People & Ops

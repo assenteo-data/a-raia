@@ -22,7 +22,7 @@ Assenteo conducts a review based on the standard to verify your compliance.
 {% step %}
 ### Register
 
-We’ll add you to our public register to show your _undergoing A-RAiA_.
+We’ll add you to our public register to show you are _undergoing A-RAiA_.
 {% endstep %}
 
 {% step %}

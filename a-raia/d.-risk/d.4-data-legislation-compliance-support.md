@@ -14,17 +14,23 @@ layout:
   metadata:
     visible: true
   tags:
-    visible: false
+    visible: true
   actions:
     visible: true
   anchors:
     visible: true
 tags:
   - risk
+  - leadership
+  - legal-and-privacy
 ---
 
 # D.4 Data legislation compliance support
 
-The company shall comply with all applicable data protection laws relating to the development, delivery and integration of the AI System.
+Follow all data protection laws that apply to building, delivering and integrating your AI system.
 
-<table><thead><tr><th width="109.6953125">Control #</th><th width="379.66796875">Control</th><th>Source</th></tr></thead><tbody><tr><td>D.4.i</td><td>The company shall comply with all applicable privacy laws in respect of the AI System and any personal data that is processed, including in relation to sensitive personal data (e.g. health data).</td><td>EU AI Act, Article 10; EU AI Act, Recital 69</td></tr><tr><td>D.4.ii</td><td>The company shall perform periodic audits and updates to maintain legal compliance for the AI system and associated processing.</td><td>EU AI Act, Annex VII</td></tr><tr><td>D.4.iii</td><td>The company shall appoint a representative (e.g an AI Officer) responsible for data handling and compliance. </td><td>[non-mandatory, but recommended] EU AI Act, Article 4</td></tr></tbody></table>
+| Control # | Control                                                                                                                              | Source                                                 | Primary owner   | Supporting functions |
+| --------- | ------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------ | --------------- | -------------------- |
+| D.4.i     | Comply with privacy laws for the AI system and any personal data it processes, including sensitive personal data (e.g. health data). | EU AI Act, Article 10; EU AI Act, Recital 69           | Legal & Privacy | Engineering          |
+| D.4.ii    | Audit and update regularly so you stay compliant as the system and its processing change.                                            | EU AI Act, Annex VII                                   | Legal & Privacy | Security             |
+| D.4.iii   | Name someone (e.g. an AI Officer) responsible for data handling and compliance.                                                      | \[non-mandatory, but recommended] EU AI Act, Article 4 | Leadership      | Legal & Privacy      |

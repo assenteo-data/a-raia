@@ -14,22 +14,24 @@ layout:
   metadata:
     visible: true
   tags:
-    visible: false
+    visible: true
   actions:
     visible: true
   anchors:
     visible: true
 tags:
   - transparency
+  - product
+  - legal-and-privacy
+  - customer-success
 ---
 
 # A.4 AI interaction transparency
 
-The company shall provide any relevant and necessary information and explanations regarding the interaction with an AI system.
+Make sure people know when they're dealing with AI and can check what it produces.
 
-Explanation:&#x20;
-
-The Buyer will have access to features and information that ensures end users understand they are interacting with AI and can check outputs.&#x20;
-
-<table><thead><tr><th width="109.8515625">Control #</th><th width="379.93359375">Control</th><th>Source</th></tr></thead><tbody><tr><td>A.4.i</td><td>The company ensures users are made aware that they are interacting with an AI system. For example, labelling of AI-generated content.</td><td>EU AI Act – Article 50</td></tr><tr><td>A.4.ii</td><td>The company provides guidance on required human oversight by the enterprise and interpretation of outputs.</td><td>EU AI Act – Instructions to deployers Article 13</td></tr><tr><td>A.4.iii</td><td>The company provides clear notices to end users regarding processing by the AI system, including purposes, legal bases, and key processing information.</td><td>Enterprise vendor requirement</td></tr></tbody></table>
-
+| Control # | Control                                                                                                                           | Source                                           | Primary owner    | Supporting functions         |
+| --------- | --------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------ | ---------------- | ---------------------------- |
+| A.4.i     | Make it clear to users when they're interacting with AI, for example by labelling AI-generated content.                           | EU AI Act – Article 50                           | Product          | Engineering, Legal & Privacy |
+| A.4.ii    | Tell customers how much human oversight they need, based on the risk of each use case, and how to interpret outputs.              | EU AI Act – Instructions to deployers Article 13 | Customer Success | Product                      |
+| A.4.iii   | Give end users a clear notice about how the AI system processes their data: what for, on what legal basis, and other key details. | Enterprise vendor requirement                    | Legal & Privacy  | Product                      |

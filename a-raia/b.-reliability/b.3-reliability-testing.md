@@ -14,17 +14,26 @@ layout:
   metadata:
     visible: true
   tags:
-    visible: false
+    visible: true
   actions:
     visible: true
   anchors:
     visible: true
 tags:
   - reliability
+  - engineering
+  - ai-ml
 ---
 
 # B.3 Reliability testing
 
-The company shall ensure testing processes are in place to verify accuracy, bias mitigation, and robustness of the AI system.
+Test the system for accuracy, bias and robustness.
 
-<table><thead><tr><th width="109.8125">Control #</th><th width="379.578125">Control</th><th>Source</th></tr></thead><tbody><tr><td>B.3.i</td><td>The company has taken steps to ensure that the AI System and the training data are exempt of bias likely to lead to discrimination, through all necessary measures which shall be regularly audited.</td><td>Enterprise vendor requirement</td></tr><tr><td>B.3.ii</td><td>The company has defined, implemented, and documented methods to measure and verify the accuracy of AI system outputs.</td><td>Enterprise vendor requirement</td></tr><tr><td>B.3.iii</td><td>The company has implemented measures to detect and mitigate data errors, gaps, and bias risks.</td><td>Art 10 – Data and data governance</td></tr><tr><td>B.3.iv</td><td>The company has tested the system robustness under expected operating conditions and foreseeable stress or error scenarios.</td><td>Art 15 – Accuracy, robustness and cybersecurity</td></tr><tr><td>B.3.v</td><td>The company has implemented a post-deployment monitoring process to collect and analyse system performance and risk information.</td><td>Art 72 – Post-market monitoring</td></tr><tr><td>B.3.vi</td><td>The company has assessed and documented dataset relevance, representativeness, and known biases.</td><td>Art 10 – Data and data governance</td></tr></tbody></table>
+| Control # | Control                                                                                                     | Source                                          | Primary owner | Supporting functions |
+| --------- | ----------------------------------------------------------------------------------------------------------- | ----------------------------------------------- | ------------- | -------------------- |
+| B.3.i     | Test the system and its training data for bias that could lead to discrimination, and audit this regularly. | Enterprise vendor requirement                   | AI/ML         | Legal & Privacy      |
+| B.3.ii    | Decide how you'll measure output accuracy, do it, and write it down.                                        | Enterprise vendor requirement                   | AI/ML         | Engineering          |
+| B.3.iii   | Check for and fix data errors, gaps and bias risks.                                                         | Art 10 – Data and data governance               | AI/ML         | Engineering          |
+| B.3.iv    | Test robustness under normal conditions and under foreseeable stress and error scenarios.                   | Art 15 – Accuracy, robustness and cybersecurity | Engineering   | AI/ML, Security      |
+| B.3.v     | After launch, keep collecting and reviewing performance and risk information (post-deployment monitoring).  | Art 72 – Post-market monitoring                 | Engineering   | AI/ML, Product       |
+| B.3.vi    | Check and record whether your datasets are relevant and representative, and note any known biases.          | Art 10 – Data and data governance               | AI/ML         | Legal & Privacy      |

@@ -14,18 +14,29 @@ layout:
   metadata:
     visible: true
   tags:
-    visible: false
+    visible: true
   actions:
     visible: true
   anchors:
     visible: true
 tags:
   - reliability
+  - engineering
+  - ai-ml
+  - security
 ---
 
 # B.2 Reliability design
 
-The company shall define and implement measures to ensure the long-term stability and performance of the AI system.
+Design the system to stay stable and perform well over time.
 
-<table><thead><tr><th width="110.2421875">Control #</th><th width="380.08203125">Control</th><th>Source</th></tr></thead><tbody><tr><td>B.2.i</td><td>The company has defined and implemented data governance processes for training, validation, and testing datasets. <br><br>(If the company does not train the model, they can retrieve the above information from the third-party model.)</td><td>Art 10 – Data and data governance</td></tr><tr><td>B.2.ii</td><td>The company has documented dataset provenance, sources, collection methods, and preparation steps.<br><br>(If the company does not develop the model, they can retrieve the above information from the third-party model.)</td><td>Art 10 – Data and data governance</td></tr><tr><td>B.2.iii</td><td>The company has described how (whether built, sourced, or licensed) and which models are selected, as well as the reasoning behind this decision.</td><td>Principle 7 – Original Framework</td></tr><tr><td>B.2.iv</td><td>The company has defined target performance and accuracy metrics appropriate to the intended purpose.</td><td>Art 15 – Accuracy, robustness and cybersecurity</td></tr><tr><td>B.2.v</td><td>The company has implemented safeguards against performance degradation, model drift, and adversarial manipulation.</td><td>Art 15 – Accuracy, robustness and cybersecurity</td></tr><tr><td>B.2.vi</td><td>The company has implemented cybersecurity controls appropriate to AI model and data assets.</td><td>Art 15 – Accuracy, robustness and cybersecurity</td></tr><tr><td>B.2.vii</td><td>The company has implemented change management and version control for AI systems and models.</td><td>Art 17 – Quality management system</td></tr><tr><td>B.2.viii</td><td>The company has designed the AI system to prevent harm, through screening and, where applicable, implements feedback and supervision mechanisms.</td><td>Art 17 – Quality management system</td></tr></tbody></table>
-
+| Control # | Control                                                                                                                                                                                                                        | Source                                          | Primary owner | Supporting functions     |
+| --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------- | ------------- | ------------------------ |
+| B.2.i     | Set up data governance for your training, validation and testing datasets. (If you don't develop your own model, you should retrieve this information from the third-party model provider.)                                    | Art 10 – Data and data governance               | AI/ML         | Legal & Privacy          |
+| B.2.ii    | Document where your datasets come from, how they were collected and how they were prepared (data provenance). (If you don't develop your own model, you should retrieve this information from the third-party model provider.) | Art 10 – Data and data governance               | AI/ML         | Legal & Privacy          |
+| B.2.iii   | Explain which models you use, whether you built, sourced or licensed them, and the reasoning behind this decision.                                                                                                             | Principle 7 – Original Framework                | AI/ML         | Leadership, Engineering  |
+| B.2.iv    | Set performance and accuracy targets that fit what the system is for.                                                                                                                                                          | Art 15 – Accuracy, robustness and cybersecurity | AI/ML         | Product                  |
+| B.2.v     | Put safeguards in place against performance degradation, model drift and adversarial manipulation.                                                                                                                             | Art 15 – Accuracy, robustness and cybersecurity | AI/ML         | Security, Engineering    |
+| B.2.vi    | Apply cybersecurity controls that fit your AI models and data.                                                                                                                                                                 | Art 15 – Accuracy, robustness and cybersecurity | Security      | Engineering              |
+| B.2.vii   | Use change management and version control for your AI systems and models.                                                                                                                                                      | Art 17 – Quality management system              | Engineering   | AI/ML                    |
+| B.2.viii  | Design the system to prevent harm, for example by screening inputs and outputs, and, where relevant, add feedback and supervision mechanisms.                                                                                  | Art 17 – Quality management system              | AI/ML         | Product, Legal & Privacy |

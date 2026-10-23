@@ -2,7 +2,7 @@
 
 **A-RAIA is a contracting baseline for startups processing customer data using LLMs.** \
 \
-By being part of A-RAIA your customers gain a better understanding how your product or service processes customer data, leading to faster and cleaner contracting.&#x20;
+By being part of A-RAIA your customers gain a better understanding of how your product or service processes customer data, leading to faster and cleaner contracting.&#x20;
 
 Benefits of joining A-RAIA include: <br>
 
@@ -14,7 +14,7 @@ Benefits of joining A-RAIA include: <br>
 
 
 
-2. **Gain clarity in the required technical changes required for your business systems and product** \
+2. **Gain clarity in the technical changes required for your business systems and product** \
    \
    For startups seeking enterprise customers one of the biggest challenges is knowing the requirements needed for data handling and processing. With a standardised framework aligned with what legal and data protection teams want to see, A-RAIA means no guessing for your product team. We update A-RAIA quarterly to keep up-to-date with industry changes. We’ve done the work and know what to integrate for A-RAiA startups.&#x20;
 

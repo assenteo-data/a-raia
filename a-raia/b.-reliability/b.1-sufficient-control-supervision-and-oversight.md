@@ -14,17 +14,27 @@ layout:
   metadata:
     visible: true
   tags:
-    visible: false
+    visible: true
   actions:
     visible: true
   anchors:
     visible: true
 tags:
   - reliability
+  - product
+  - engineering
+  - customer-success
 ---
 
 # B.1 Sufficient control, supervision, and oversight
 
-The company shall ensure the AI system allows effective control and supervision by itself and/or the enterprise.
+Make sure the AI system can be properly controlled and supervised, by you and/or your customer.
 
-<table><thead><tr><th width="109.95703125">Control #</th><th width="380.21484375">Control</th><th>Source</th></tr></thead><tbody><tr><td>B.1.i</td><td>The company collects feedback from users and customers regarding system behaviour </td><td>Art 72 – Post-market monitoring</td></tr><tr><td>B.1.ii</td><td>The company collects feedback from users and customers regarding system outcomes.</td><td>Art 72 – Post-market monitoring</td></tr><tr><td>B.1.iii</td><td>The company has put in place adequate recourse and remedy mechanisms that allow its users to provide system feedback, including inaccuracies, behaviour and/or outcomes.</td><td>Principle 10 – Original Framework: enterprise vendor requirement </td></tr><tr><td>B.1.iv</td><td>The company provides a mechanism for human review of AI outputs. including review frequency and documented evaluation criteria.</td><td>Enterprise vendor requirement</td></tr><tr><td>B.1.v</td><td>The company provides human review services or designs to AI system to allow the enterprise to have  oversight for key decisions, including the ability to intervene, override, or halt automated processing where necessary.</td><td>Enterprise vendor requirement</td></tr><tr><td>B.1.vi</td><td>The company provides configurable controls to limit profiling and automated decision-making, including options for manual intervention.</td><td>Enterprise vendor requirement</td></tr></tbody></table>
+| Control # | Control                                                                                                                                                 | Source                                                           | Primary owner    | Supporting functions          |
+| --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- | ---------------- | ----------------------------- |
+| B.1.i     | Collect feedback from users and customers on how the system behaves.                                                                                    | Art 72 – Post-market monitoring                                  | Customer Success | Product                       |
+| B.1.ii    | Collect feedback from users and customers on the results the system produces.                                                                           | Art 72 – Post-market monitoring                                  | Customer Success | Product, AI/ML                |
+| B.1.iii   | Give users an easy way to report problems (inaccuracies, odd behaviour or bad outcomes) and get them fixed (recourse and remedy).                       | Principle 10 – Original Framework: enterprise vendor requirement | Product          | Customer Success, Engineering |
+| B.1.iv    | Offer a way for people to review AI outputs, with a set review frequency and clear criteria.                                                            | Enterprise vendor requirement                                    | Product          | AI/ML, Customer Success       |
+| B.1.v     | Offer human review, or design the system so the customer can oversee key decisions, including stepping in, overriding or stopping automated processing. | Enterprise vendor requirement                                    | Product          | Engineering                   |
+| B.1.vi    | Give customers settings to limit profiling and automated decision-making, including the option to step in manually.                                     | Enterprise vendor requirement                                    | Engineering      | Product, Legal & Privacy      |

@@ -14,18 +14,20 @@ layout:
   metadata:
     visible: true
   tags:
-    visible: false
+    visible: true
   actions:
     visible: true
   anchors:
     visible: true
 tags:
   - transparency
+  - legal-and-privacy
 ---
 
 # A.6 Legal Compliance
 
-The company shall comply with all applicable laws relating to the development, delivery and integration of the AI System.
+Follow the laws that apply to building, delivering and integrating your AI system.
 
-<table><thead><tr><th width="109.9453125">Control #</th><th width="379.69140625">Control</th><th>Source</th></tr></thead><tbody><tr><td>A.6.i</td><td>The company states which regulations the AI System is compliant with. </td><td>Enterprise vendor requirement</td></tr></tbody></table>
-
+| Control # | Control                                               | Source                        | Primary owner   | Supporting functions |
+| --------- | ----------------------------------------------------- | ----------------------------- | --------------- | -------------------- |
+| A.6.i     | State which regulations your AI system complies with. | Enterprise vendor requirement | Legal & Privacy | Leadership           |

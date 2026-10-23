@@ -14,17 +14,23 @@ layout:
   metadata:
     visible: true
   tags:
-    visible: false
+    visible: true
   actions:
     visible: true
   anchors:
     visible: true
 tags:
   - reliability
+  - engineering
+  - ai-ml
 ---
 
 # B.5 Reliability monitoring
 
-The company shall monitor and maintain system performance and reliability throughout its lifecycle.
+Keep an eye on performance and reliability for the system's whole lifecycle.
 
-<table><thead><tr><th width="110.3203125">Control #</th><th width="379.93359375">Control</th><th>Source</th></tr></thead><tbody><tr><td>B.5.i</td><td>The company monitors and maintains system performance and reliability for the duration of processing enterprise data.</td><td>Art 15 – Accuracy, robustness and cybersecurity</td></tr><tr><td>B.5.ii</td><td>The company maintains records of monitoring activities and findings.</td><td>Art 72 – Post-market monitoring</td></tr><tr><td>B.5.iii</td><td>The company has defined monitoring indicators, thresholds, and review intervals.</td><td>Art 72 – Post-market monitoring</td></tr></tbody></table>
+| Control # | Control                                                                                    | Source                                          | Primary owner | Supporting functions |
+| --------- | ------------------------------------------------------------------------------------------ | ----------------------------------------------- | ------------- | -------------------- |
+| B.5.i     | Monitor and maintain performance and reliability for as long as you process customer data. | Art 15 – Accuracy, robustness and cybersecurity | Engineering   | AI/ML                |
+| B.5.ii    | Keep records of your monitoring and what you find.                                         | Art 72 – Post-market monitoring                 | Engineering   | AI/ML                |
+| B.5.iii   | Set what you monitor, the thresholds that trigger action, and how often you review.        | Art 72 – Post-market monitoring                 | AI/ML         | Engineering, Product |

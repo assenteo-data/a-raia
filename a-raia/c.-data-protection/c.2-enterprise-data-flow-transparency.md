@@ -14,17 +14,27 @@ layout:
   metadata:
     visible: true
   tags:
-    visible: false
+    visible: true
   actions:
     visible: true
   anchors:
     visible: true
 tags:
   - data-protection
+  - engineering
+  - legal-and-privacy
 ---
 
 # C.2 Enterprise data flow transparency
 
-The company has documented how enterprise data flows in the company's infrastructure. They can articulate how enterprise data is stored, shared, sold, retained, and deleted.
+Be able to explain how customer data moves through your infrastructure: how it's stored, shared, sold, retained and deleted.
 
-<table><thead><tr><th width="110.046875">Control #</th><th width="379.58984375">Control</th><th>Source</th></tr></thead><tbody><tr><td>C.2.i</td><td>The company documents the overarching data flow associated with the AI system / architecture of how data is used.</td><td>Principle 8 – Original Framework</td></tr><tr><td>C.2.ii</td><td>The company documents the purpose/legal basis (or bases) for processing personal data associated with the AI system.</td><td>Enterprise vendor requirement</td></tr><tr><td>C.2.iii</td><td>The company documents the categories of data processed by or through the AI system, including personal data, for development, testing, or operation.</td><td>Enterprise vendor requirement / Art 10 – Data and data governance</td></tr><tr><td>C.2.iv</td><td>The company documents the specific purposes for which personal data is processed by or through the AI system.</td><td>Enterprise vendor requirement</td></tr><tr><td>C.2.v</td><td>The company identifies where personal data is processed (EEA and/or third countries) and documents any international transfer mechanism(s) where applicable.</td><td>Enterprise vendor requirement</td></tr><tr><td>C.2.vi</td><td>The company has documented the sources of data used in the system, the types of data collected, and the legal basis for using and processing that data.</td><td>Principle 6 – Original Framework</td></tr><tr><td>C.2.vii</td><td>The company carries out documented due diligence on suppliers and third-party components used in AI systems.</td><td>Art 17 – Quality management system</td></tr></tbody></table>
+| Control # | Control                                                                                                                           | Source                                                            | Primary owner   | Supporting functions      |
+| --------- | --------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- | --------------- | ------------------------- |
+| C.2.i     | Map how data flows through your AI system and architecture.                                                                       | Principle 8 – Original Framework                                  | Engineering     | Legal & Privacy, Security |
+| C.2.ii    | Document the legal basis (or bases) for processing personal data in the AI system.                                                | Enterprise vendor requirement                                     | Legal & Privacy | Product                   |
+| C.2.iii   | List the categories of data the AI system processes, including personal data, for development, testing or operation.              | Enterprise vendor requirement / Art 10 – Data and data governance | Legal & Privacy | Engineering, AI/ML        |
+| C.2.iv    | Document the specific purposes you process personal data for.                                                                     | Enterprise vendor requirement                                     | Legal & Privacy | Product                   |
+| C.2.v     | Know where personal data is processed (EEA and/or other countries) and document the international transfer mechanism you rely on. | Enterprise vendor requirement                                     | Legal & Privacy | Engineering               |
+| C.2.vi    | Document where your data comes from, what types you collect, and the legal basis for using it.                                    | Principle 6 – Original Framework                                  | Legal & Privacy | AI/ML                     |
+| C.2.vii   | Carry out and record due diligence on your suppliers and third-party AI components.                                               | Art 17 – Quality management system                                | Legal & Privacy | Security, Engineering     |

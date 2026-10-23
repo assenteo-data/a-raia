@@ -14,17 +14,24 @@ layout:
   metadata:
     visible: true
   tags:
-    visible: false
+    visible: true
   actions:
     visible: true
   anchors:
     visible: true
 tags:
   - risk
+  - leadership
+  - engineering
 ---
 
 # D.6 System ownership and governance
 
-The company shall document and understand risks of the system, and will define whether they operate on a shared responsibility model.
+Understand and document the system's risks, and be clear whether you work on a shared responsibility model.
 
-<table><thead><tr><th width="110.15234375">Control #</th><th width="380.09375">Control</th><th>Source</th></tr></thead><tbody><tr><td>D.6.i</td><td>The company shall establish a quality management system governing AI system development, testing, release, and maintenance.</td><td>Art 17 – Quality management system</td></tr><tr><td>D.6.ii</td><td>The company shall define roles, responsibilities, and competencies for AI lifecycle activities.</td><td>Art 17 – Quality management system</td></tr><tr><td>D.6.iii</td><td>The company has defined and communicated the system's purpose, intended use, impacted parties, and any prohibited use cases. The company understands their obligations under AI governance frameworks for their industry.</td><td>Principle 1 – Original Framework</td></tr><tr><td>D.6.iv</td><td>The company has outlined who is responsible for building, maintaining, and overseeing the system, along with the tools and infrastructure supporting it.</td><td>Principle 2 – Original Framework</td></tr></tbody></table>
+| Control # | Control                                                                                                                                                                                                              | Source                             | Primary owner | Supporting functions     |
+| --------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------- | ------------- | ------------------------ |
+| D.6.i     | Run a quality management system for how you develop, test, release and maintain AI.                                                                                                                                  | Art 17 – Quality management system | Engineering   | AI/ML, Leadership        |
+| D.6.ii    | Define who does what across the AI lifecycle, and the skills they need.                                                                                                                                              | Art 17 – Quality management system | Leadership    | People & Ops             |
+| D.6.iii   | Define and share the system's purpose, intended use, who it affects and any prohibited uses (e.g. in a published acceptable use policy). Know your obligations under the AI governance frameworks for your industry. | Principle 1 – Original Framework   | Leadership    | Product, Legal & Privacy |
+| D.6.iv    | Set out who builds, maintains and oversees the system, and the tools and infrastructure behind it.                                                                                                                   | Principle 2 – Original Framework   | Leadership    | Engineering              |
